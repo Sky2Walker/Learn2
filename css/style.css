@@ -95,7 +95,7 @@ body{
 
 }
 
-.news_title{
+.news_title, .color-titile{
     padding-top: 0;
     font-weight: 700;
     font-size: 32px;
@@ -147,3 +147,41 @@ body{
 .images_new{
     margin-left: 190px;
 }
+
+.color{
+    padding-bottom: 150px;
+}
+
+
+.color__list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color__item img{
+    margin-bottom: 20px;
+}
+
+.color__item h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 26px */
+
+
+    /* ЧЕРНЫЙ */
+
+    color: #0A0A0A;
+
+    margin: 0 0 10px;
+}
+
+
+.color__item p{
+    margin: 0;
+}
+
+
+
+
